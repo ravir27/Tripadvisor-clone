@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+ 
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+
+/* Heading and sign in */
+
+.section1--container{
+    display: flex;
+    justify-content:space-around ;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.section1--title img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.section1--title{
+    display: flex;
+    position: relative;
+    left: 40px;
+    gap: 5px; 
+    
+}
+
+.section1--review{
+    display: flex;
+    gap: 0px;
+    cursor: pointer;
+   
+}
+.section1--review p{
+      border-radius: 30px;
+    padding: 10px 20px;
+}
+.section1--review p:hover{
+    background-color: aqua;
+    border-radius: 30px;
+    padding: 10px 20px;
+    gap: 0px;
+}
+
+
+.section1--signin img{
+    height: 15px;
+    width: 15px;
+    top: 30px;
+
+}
+.section1--signin{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.section1--signin button{
+
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+}
+
+.h1--tag{
+    font-size: x-large;
+    margin: 50px;
+    text-align: center;
+}
+
+.menu{
+    display: flex; 
+    justify-content: center; 
+    gap: 30px;
+    font-size: 20px;
+}
+
+.menu--icon{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    padding-bottom: 5px;
+    
+}
+
+.menu--icon:hover{
+    border-bottom: solid black 2px;
+}
+/* navbar */
+
+.navbar{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border: solid 1px black;
+    border-radius: 30px;
+    width: 800px;
+    padding: 5px;
+    margin-left:22% ;
+    top: 20px;
+    cursor: pointer;
+}
+.navbar--searchsymbol{
+    margin-left: 10px;
+
+}
+
+.navbar--input input{
+
+    border: transparent;
+    position: relative;
+    right: 170px;
+    width: 300px;
+    font-size: 18px;
+    padding: 10px 0px;
+    
+    
+}
+.navbar--input input:focus{
+    outline: none;
+}
+
+
+.navbar--searchbutton button{
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: rgb(8, 159, 8) ;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+/* panner */
+
+.panner--container{
+    display: flex;
+    position: relative;
+    top: 40px;
+    margin: 20px;
+    background-color: rgb(228, 77, 77);
+    width: 76%;
+    left:15% ;
+    border-radius: 20px;
+    justify-content: space-around;
+    cursor: pointer;
+ 
+
+}
+
+.panner--image{
+     width: 400px;
+    height: 400px;
+   
+
+}
+.panner--image img{
+    width: 100%;
+    height: 80%;
+    padding: 15px;
+    padding-right: 30px;
+     border-radius: 5px;
+     position: relative;
+     top: 10px;
+     border-right: 2px solid black;
+}
+.panner--title{
+    position: relative;
+    top: 10px;
+   
+  
+}
+
+#panner--one {
+    position: relative;
+    font-size: 75px;
+    width: 500px;
+   
+    padding-left: 20px;
+    
+}
+#panner--two{
+    padding: 20px 0px;
+    font-size: 20px;
+    
+    padding-left: 20px;
+}
+
+#panner--three{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+    font-size: 18px; 
+}
+.section2--title{
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    left: 210px;
+    top: 70px;
+   
+}
+
+.section2--title p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flex--container{
+    position: relative;
+    display: flex;
+    margin: 5px;
+     top: 70px;
+     width: 76%;
+     left: 16%;
+     
+}
+
+.flex--item img{
+    position: relative;
+    width: 95%;
+    gap: 10px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.flex--item p{
+    position: absolute;
+    bottom: 10px;
+    margin-left:10px ;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    
+}
+
+.review--title{
+     left: 16%;
+    position: relative;
+    top: 130px;
+}
+
+.review--desc{
+    left: 16%;
+    position: relative;
+    top: 140px;
+
+}
+.review--container{
+    display: flex;
+    width: 76%;
+    height: 200px;
+    position: relative;
+    top: 170px;
+    left: 16%;
+}
+
+.review--item img{
+    position: relative;
+    width: 95%;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+}
+
+.contact--container{
+   
+    display: flex;
+    position: relative;
+    top: 300px;
+    background-color: bisque;
+    justify-content: space-around;
+    height: 250px;
+   
+    
+}
+
+.contact--item1,.contact--item2,.contact--item3,.contact--item4 {
+    position: relative;
+    top: 20px;
+    left: 10%;
+     margin: 20px;
+    
+}
+
+.contact--item1 li{
+
+    list-style: none;
+}
+
+.contact--item2 li{
+
+    list-style: none;
+}
+
+.contact--item3 li{
+
+    list-style: none;
+}
+
+.contact--item4 {
+
+    position: relative;
+    left: 10px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
